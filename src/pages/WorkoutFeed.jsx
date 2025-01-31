@@ -25,7 +25,7 @@ const WorkoutFeed = () => {
     { name: "Sarah Johnson", workout: "Just finished a 5k run in 25 minutes! Personal best!", likes: 24, comments: 5 },
     {
       name: "Mike Chen",
-      workout: "Upper body workout: 3x10 bench press, 3x12 rows, 3x15 shoulder press",
+      workout: "Upper body workout: 3x12 bench press, 3x15 rows, 3x15 shoulder press",
       likes: 18,
       comments: 3,
     },
