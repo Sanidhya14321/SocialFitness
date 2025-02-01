@@ -1,6 +1,6 @@
-import React from "react"
 import { Link } from "react-router-dom"
 import { motion } from "framer-motion"
+import React from "react"
 
 const Header = () => {
   return (
@@ -32,6 +32,11 @@ const Header = () => {
               Connect
             </Link>
           </motion.li>
+          <motion.li whileHover={{ scale: 1.1 }}>
+            <Link to="/workout-plans" className="hover:text-blue-200">
+              Workout Plans
+            </Link>
+          </motion.li>
         </motion.ul>
       </nav>
     </header>
@@ -39,3 +44,4 @@ const Header = () => {
 }
 
 export default Header
+

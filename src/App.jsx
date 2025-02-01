@@ -1,4 +1,3 @@
-import React from "react"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
@@ -6,6 +5,8 @@ import Home from "./pages/Home"
 import Profile from "./pages/Profile"
 import WorkoutFeed from "./pages/WorkoutFeed"
 import Connect from "./pages/Connect"
+import WorkoutPlans from "./pages/WorkoutPlans"
+import React from "react"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/profile" element={<Profile />} />
             <Route path="/feed" element={<WorkoutFeed />} />
             <Route path="/connect" element={<Connect />} />
+            <Route path="/workout-plans" element={<WorkoutPlans />} />
           </Routes>
         </main>
         <Footer />
